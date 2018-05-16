@@ -35,6 +35,11 @@ public class Account {
 	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
+	
+	public String toString () {
+		
+		return "First name:" + this.firstName + "Last name:" + this.lastName + "Account number:" + this.accountNumber;
+	}
 
 
 

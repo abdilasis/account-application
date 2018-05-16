@@ -4,7 +4,7 @@ import java.util.Scanner;;
 
 public class Service {
 
-	HashMap <Integer, Account> accounts = new HashMap<Integer,Account>();
+	private HashMap <Integer, Account> accounts = new HashMap<Integer,Account>();
 	
 	
 	public void createAccount(int accountNumber) {
